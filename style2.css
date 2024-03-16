@@ -1,0 +1,72 @@
+@media screen and (max-width:1024px) {
+    #abt{
+        display:block;
+        flex-shrink: 2;
+    }
+    #about{
+    width: 100%;
+    max-width: 100%;
+    
+    
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: auto;
+    p{
+        font-size: 20px;
+    }
+    }
+    video{
+       display: none;
+    }
+    
+
+    #intro{
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding-top: 20%;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-right: 0%;
+        margin-left: 0%;
+        background: none;
+        h1{
+            text-align: center;
+            color: aliceblue;
+            width: auto;
+            
+        }
+        p{
+            color: aliceblue;
+            align-self: center;
+        }
+        image{
+            padding: 0%;
+            margin: 0%;
+            max-width: 100%;
+            height: auto;
+            align-self: center;
+        }
+        #imgContainer{
+            padding: 10%;
+            margin: 0%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            align-content: center;
+        }
+    }
+    #aboutm{
+        height: auto;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
