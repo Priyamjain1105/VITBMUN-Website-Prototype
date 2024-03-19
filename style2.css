@@ -87,7 +87,7 @@
     }
 }
 
-@media screen and (max-width: 408px) {
+@media screen and (max-width: 475px) {
     .nav-item:nth-child(1),
     .nav-item:nth-child(2) {
       display: none;  }
