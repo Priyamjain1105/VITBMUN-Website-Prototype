@@ -86,3 +86,9 @@
          text-align: justify;
     }
 }
+
+@media screen and (max-width: 408px) {
+    .nav-item:nth-child(1),
+    .nav-item:nth-child(2) {
+      display: none;  }
+  }
